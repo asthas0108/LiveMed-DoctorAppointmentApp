@@ -7,7 +7,7 @@ import { Pill } from "lucide-react";
 const Hero = () => {
   return (
     
-    <div className="relative bg-white pb-[110px] pt-[50px] dark:bg-dark lg:pt-[50px]">
+    <div className="relative bg-white pb-30 pt-[50px] dark:bg-dark lg:pt-[50px]">
     <div className="container">
         <div className="-mx-4 flex flex-wrap">
         <div className="w-full px-4 lg:w-5/12">

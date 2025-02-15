@@ -6,7 +6,7 @@ export default function layout({children}) {
   return (
     <div className="">
         <Navbar/>
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto w-full">
           <MegaMenu/>
         </div>
         {children}

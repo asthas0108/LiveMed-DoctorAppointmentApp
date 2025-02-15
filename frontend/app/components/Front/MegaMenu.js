@@ -120,7 +120,7 @@ const megaMenu = [
 
 export default function MegaMenu() {
   return (
-    <NavigationMenu>
+    <NavigationMenu className="bg-white">
       <NavigationMenuList>
 
         {
