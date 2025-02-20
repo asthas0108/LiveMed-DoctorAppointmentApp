@@ -1,5 +1,6 @@
 import React from "react";
 import TabItems from "./TabItems";
+import SectionHeading from "../SectionHeading";
 
 const Service = () => {
   return (
@@ -11,9 +12,7 @@ const Service = () => {
               {/* <span className="mb-2 block text-lg font-semibold text-primary">
                 Our Services
               </span> */}
-              <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]">
-                Top-rated online doctors & specialists available now.
-              </h2>
+              <SectionHeading title="Top-rated online doctors & specialists available now."/>
               <p className="text-base text-body-color dark:text-dark-6">
                 Choose from thousands of providers at every day affordable prices. Book online today.
               </p>

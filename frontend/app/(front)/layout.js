@@ -9,7 +9,9 @@ export default function layout({children}) {
         <div className="max-w-5xl mx-auto w-full">
           <MegaMenu/>
         </div>
-        {children}
+        <div className='mt-[30px]'>
+          {children}
+        </div>
     </div>
   )
 }
