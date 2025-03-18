@@ -1,4 +1,5 @@
 import DoctorDetails from '@/app/components/DoctorDetails'
+import FixedBookButton from '@/app/components/FixedBookButton'
 import Image from 'next/image'
 import React from 'react'
 
@@ -29,8 +30,12 @@ export default function page() {
                     />
                 </div>
             </div>
-            <DoctorDetails/>
+            <div className=''>
+                <DoctorDetails/>
+            </div>
         </div>
+
+        <FixedBookButton/>
     </div>
   )
 }

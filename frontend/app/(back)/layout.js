@@ -1,10 +1,17 @@
 import React from 'react'
+import NavBar from '../components/Dashboard/NavBar'
+import Sidebar from '../components/Dashboard/SideBar'
 
 export default function layout({children}) {
   return (
     <div>
-        <h2>dashboard lyaout</h2>
-        {children}
+        <NavBar/>
+        <div className='flex'>
+          <Sidebar/>
+          <div className='p-8'>
+            {children}
+          </div>
+        </div>
     </div>
   )
 }
